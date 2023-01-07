@@ -12,10 +12,9 @@ public class Table extends AbstractTableModel {
 
     @Override
     public int getColumnCount() {
-        return 3;
+        return 4;
     }
 
-    @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         return null;
     }
